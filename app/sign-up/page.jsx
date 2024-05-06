@@ -11,8 +11,7 @@ const SignUp = () => {
   const handleSignUp = async () => {
     try {
         const res = await createUserWithEmailAndPassword(email, password)
-        console.log({res})
-       
+        // console.log({res})
         setEmail('');
         setPassword('')
 

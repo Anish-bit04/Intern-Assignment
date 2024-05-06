@@ -13,8 +13,7 @@ const SignIn = () => {
   const handleSignIn = async () => {
     try {
         const res = await signInWithEmailAndPassword(email, password);
-        console.log({res});
-      
+        // console.log({res});
         setEmail('');
         setPassword('');
         router.push('/')
